@@ -24,7 +24,7 @@ public class Main {
 
     private static void printEmployees() {
         System.out.println("Сотрудники: ");
-        for (int i = 0; i <= employees.length; i++) {
+        for (int i = 0; i < employees.length; i++) {
             System.out.println(employees[i]);
         }
     }
